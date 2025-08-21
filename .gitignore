@@ -143,3 +143,9 @@ vite.config.ts.timestamp-*
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+.pw-user-data/
+tools/lace-extension/
+playwright-report/
+test-results/
+node_modules/
