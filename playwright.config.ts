@@ -49,6 +49,13 @@ export default defineConfig({
       use: { ...devices['Desktop Safari'] },
     },
 
+    {
+      name: 'lace',
+      testMatch: /minswap\/.*\.spec\.ts/,
+      use: { headless: false },
+      workers: 1,
+    },
+
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
